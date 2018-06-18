@@ -5,11 +5,13 @@ Validation Sore is calculated as ( #correct - #incorrect )/( total )
 SVM has shown to have the highest validation score.
 
 Requirements:
-	Python 2 or 3
-	sklearn python module
-	nllk python module and download stop words beforehand if possible
-	pickle python module
-	sys python module
+1)Python 2 or 3
+2)sklearn python module
+3)nllk python module and download stop words beforehand if possible
+4)pickle python module
+5)sys python module
+6)time python module
+7)pathlib python module
 
 cachedStopWords = False - list of stop words to remove.  
 you can define your own stop words. if "False" it will download from NLTK and use stopwords provided from them.  
