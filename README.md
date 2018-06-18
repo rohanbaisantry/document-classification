@@ -53,3 +53,11 @@ please note for this function to work you will need the help.txt (path stored in
 
 > python document_classification.py -help  
 -> enables help
+
+> Training file should of the following format:  
+- The first line contains the number of lines that will follow.
+- Each following line will contain a number (1-8), which is the category number. The number will be followed by a space then some space seperated words which is the processed document.
+
+> Testing file should of the following format  
+- The first line in the input file will contain T the number of documents.  
+- T lines will follow each containing a series of space seperated words which represents the processed document.
