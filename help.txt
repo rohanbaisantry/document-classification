@@ -50,3 +50,11 @@ please note for this function to work you will need the help.txt (path stored in
 which you do have because you're reading this!
 
 document_classifier is a class with the following member functions: __init__(), train(), predict() and save_model()
+
+Format of the training file:
+The first line contains the number of lines that will follow.
+Each following line will contain a number (1-8), which is the category number. The number will be followed by a space then some space seperated words which is the processed document.
+
+Format of the testing file:
+The first line in the input file will contain T the number of documents.
+T lines will follow each containing a series of space seperated words which represents the processed document.
