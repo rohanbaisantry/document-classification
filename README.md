@@ -1,10 +1,11 @@
-# document-classification
+# Document Classification
 
-This is an implementation of document classification using four algorithms: Multinomial Naive Bayes, Support Vector Machines, Random Forests and Logistic Regression.  
+This is an implementation of document classification using four algorithms: Multinomial Naive Bayes, Support Vector Machines, Random Forests and Logistic Regression.
+
 Validation Sore is calculated as ( #correct - #incorrect )/( total )  
 SVM has shown to have the highest validation score.
 
-Requirements:
+## Requirements:  
 1)Python 2 or 3
 2)sklearn python module
 3)nllk python module and download stop words beforehand if possible
@@ -12,6 +13,8 @@ Requirements:
 5)sys python module
 6)time python module
 7)pathlib python module
+
+## Variables  
 
 cachedStopWords = False - list of stop words to remove.  
 you can define your own stop words. if "False" it will download from NLTK and use stopwords provided from them.  
@@ -39,12 +42,18 @@ choose from: "Multinomialnb", "svm", "random_forest" and "logistic_regression"
 
 ALL of these variables can be found in the main() function
 
+## functions
 score() function that will calculate the score as 100*(#correct-#incorrect)/(T)
 
 load_test_file() function to load the testing file data given the testing_file would be a certain format
 
 help() function to display help
 please note for this function to work you will need the help.txt (path stored in the variable help_file)
-which you do have because you're reading this!
 
-document_classifier is a class with the following member functions: __init__(), train(), predict() and save_model()
+
+"document_classifier" is a class with the following member functions: __init__(), train(), predict() and save_model()
+
+## To run  
+''' python document_classification.py '''
+''' python document_classification.py -h '''
+''' python document_classification.py -help '''
