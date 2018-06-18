@@ -45,8 +45,6 @@ please note for this function to work you will need the help.txt (path stored in
 "document_classifier" is a class with the following member functions: __init__(), train(), predict() and save_model()
 
 ## To run  
-'''python  
-python document_classification.py  
-python document_classification.py -h  
-python document_classification.py -help  
-'''
+> python document_classification.py  
+> python document_classification.py -h  
+> python document_classification.py -help  
