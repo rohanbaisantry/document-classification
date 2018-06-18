@@ -3,7 +3,7 @@
 This is an implementation of document classification using four algorithms: Multinomial Naive Bayes, Support Vector Machines, Random Forests and Logistic Regression.
 
 Validation Sore is calculated as ( #correct - #incorrect )/( total )  
-SVM has shown to have the highest validation score.
+SVM has shown to have the highest validation score of 94%
 
 ## Requirements:  
 1) Python 2 or 3  
