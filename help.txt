@@ -1,6 +1,6 @@
 		HELP
 
-This is an implementation document classification using four algorithms: Multinomial Naive Bayes, Support Vector Machines, Random Forests and Logistic Regression.
+This is an implementation of document classification using four algorithms: Multinomial Naive Bayes, Support Vector Machines, Random Forests and Logistic Regression.
 Validation Sore is calculated as ( #correct - #incorrect )/( total )
 SVM has shown to have the highest validation score.
 
@@ -10,6 +10,9 @@ Requirements:
 	nllk python module and download stop words beforehand if possible
 	pickle python module
 	sys python module
+	pathlib python module
+	time python module
+	__future__ python module
 
 cachedStopWords = False # list of stop words to remove.
 # you can define your own stop words. if "False" it will download from NLTK and use stopwords provided from them. 
