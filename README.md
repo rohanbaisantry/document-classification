@@ -46,11 +46,7 @@ please note for this function to work you will need the help.txt (path stored in
 
 ## To run  
 '''
-python document_classification.py
-'''
-''' 
-python document_classification.py -h 
-'''
-''' 
-python document_classification.py -help 
+python document_classification.py  
+python document_classification.py -h  
+python document_classification.py -help  
 '''
