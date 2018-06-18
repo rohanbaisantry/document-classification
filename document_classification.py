@@ -150,7 +150,7 @@ def main():
 	testing_file = "testingdata.txt" # path of testing file
 	save_model_file = "document_classifier.sav" # path of the file to save the model in (should be a .sav file)
 	save_vectorizer_file = "tfidf_vectorizer.sav" # path of the file to save the vectorizer model in (should be a .sav file)
-	load_model_status = True # if true, model is load. else it will be created.
+	load_model_status = True # if true, model is loaded. else it will be created.
 	Load_model_from = "document_classifier.sav" # path of the file to load the model from (should be a .sav file)
 	load_vectorizer_from = "tfidf_vectorizer.sav" # path of the file to load the vectorizer from. if the file does not exist, it will use the tfidf vectoizer by default.
 	validation_size = 0.25 # split ratio for training vs validation data -> size(validation_data) = validation_size * size(total_data)
