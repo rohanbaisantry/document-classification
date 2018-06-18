@@ -6,13 +6,13 @@ Validation Sore is calculated as ( #correct - #incorrect )/( total )
 SVM has shown to have the highest validation score.
 
 ## Requirements:  
-1)Python 2 or 3  
-2)sklearn python module  
-3)nllk python module and download stop words beforehand if possible  
-4)pickle python module  
-5)sys python module  
-6)time python module  
-7)pathlib python module  
+1) Python 2 or 3  
+2) sklearn python module  
+3) nllk python module and download stop words beforehand if possible  
+4) pickle python module  
+5) sys python module  
+6) time python module  
+7) pathlib python module  
 
 ## Variables  
 
